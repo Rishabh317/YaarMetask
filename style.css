@@ -49,7 +49,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:calc(100% - 180px);
+    height:calc(100% - 130px);
     font-family: sans-serif;
     color:orangered;
     font-size: 32px;
