@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+@font-face{
+    font-family: Billabong;
+    src: url(./fonts/FontsFree-Net-Billabong.ttf);    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Billabong;
+    background-color: rgba(231, 231, 231, 0.432);
+}
+.navbar img{
+    width: 20px;
+    height:20px;
+}
+.navbar h4{
+    font-size: 20px;
+
+}
+.navbar .navbarright{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar .navbarright img{
+    margin-left: 15px;
+}
+.navbar .navbarsection{
+    
+    width: 33%;
+}
+.navbar .navbarcenter{
+    text-align: center;
+}
+
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+    font-family: sans-serif;
+    color:orangered;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.footer{
+    /* bottom: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgba(231, 231, 231, 0.219);
+}
+.footer img{
+
+    width: 20px;
+    height: 20px;
+}
+
+.footer .profile{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    overflow: hidden;
+}
