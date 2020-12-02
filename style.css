@@ -16,7 +16,9 @@ html,body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    padding: 0px 20px;
+    height: 60px;
     font-family: Billabong;
     background-color: rgba(231, 231, 231, 0.432);
 }
@@ -47,7 +49,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 82vh;
+    height:calc(100vh - 120px);
     font-family: sans-serif;
     color:orangered;
     font-size: 32px;
@@ -59,7 +61,8 @@ html,body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 0px 20px;
+    height: 60px;
     background-color: rgba(231, 231, 231, 0.219);
 }
 .footer img{
